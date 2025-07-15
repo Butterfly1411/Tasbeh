@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(27, 23, 23);
-    
+
 }
 
 .container {
@@ -38,6 +38,11 @@ select:first-child {
     background-color: rgb(48, 42, 42);
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.counter,
+.countx {
+    font-size: 20px;
 }
 
 .count {
@@ -68,17 +73,19 @@ select:first-child {
     height: 100px;
     margin: 90px 100px;
 }
-.con-reset{
+
+.con-reset {
     display: flex;
     justify-content: center;
     margin-top: 75px;
 }
+
 .reset-btn {
     border: 0.5px solid grey;
     padding: 10px 50px;
     background-color: transparent;
     color: white;
     font-size: 25px;
-    
+
 
 }
